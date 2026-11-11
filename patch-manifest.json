@@ -1,0 +1,253 @@
+{
+  "version": "0.91.31",
+  "original_sha256": "94a08a77c3c5138a365afb48e2c0cda9740dea02a14e018c26333217238b5178",
+  "patched_sha256": "05c91a3c05b185ee6947037135dbc9767a0fa9fb9388f3b91edcacf87e6c2b15",
+  "patches": [
+    {
+      "name": "_NavButtonsWrapperState@636394395::build",
+      "offset": 19952648,
+      "before": "554889e54883ec08",
+      "after": "498b87dffd0000c3"
+    },
+    {
+      "name": "_MallPageViewState@776337619::build",
+      "offset": 20633228,
+      "before": "554889e54883ec48",
+      "after": "498b87dffd0000c3"
+    },
+    {
+      "name": "_DiscoverBannerWrapperState@895008490::build",
+      "offset": 21083052,
+      "before": "554889e54883ec18",
+      "after": "498b87dffd0000c3"
+    },
+    {
+      "name": "_DiscoverBannerV2State@1038080001::build",
+      "offset": 21814900,
+      "before": "554889e54883ec18",
+      "after": "498b87dffd0000c3"
+    },
+    {
+      "name": "_DiscoverBannerState@1039121362::build",
+      "offset": 21835900,
+      "before": "554889e54883ec18",
+      "after": "498b87dffd0000c3"
+    },
+    {
+      "name": "_DiscoveryBannerViewState@1082224735::build",
+      "offset": 22189796,
+      "before": "554889e54883ec18",
+      "after": "498b87dffd0000c3"
+    },
+    {
+      "name": "_AreaBannerState@1340030745::build",
+      "offset": 23590852,
+      "before": "554889e54883ec18",
+      "after": "498b87dffd0000c3"
+    },
+    {
+      "name": "_DiscoveryTalkRoomBannerV2State@1357230008::build",
+      "offset": 23745728,
+      "before": "554889e54883ec18",
+      "after": "498b87dffd0000c3"
+    },
+    {
+      "name": "_CompanionPageWrapperState@3989154030::build",
+      "offset": 25402516,
+      "before": "554889e54883ec10",
+      "after": "498b87dffd0000c3"
+    },
+    {
+      "name": "_CompanionPageState@3989154030::build",
+      "offset": 25404376,
+      "before": "554889e54883ec18",
+      "after": "498b87dffd0000c3"
+    },
+    {
+      "name": "_DailyActivityFloatingBallState@3992439497::build",
+      "offset": 25412308,
+      "before": "554889e54883ec18",
+      "after": "498b87dffd0000c3"
+    },
+    {
+      "name": "_HotRecommendAdBannerState@895008490::build",
+      "offset": 25423288,
+      "before": "554889e54883ec30",
+      "after": "498b87dffd0000c3"
+    },
+    {
+      "name": "_DiscoveryTalkRoomBannerWrapperV2State@4011281503::build",
+      "offset": 25436920,
+      "before": "554889e54883ec10",
+      "after": "498b87dffd0000c3"
+    },
+    {
+      "name": "_MallPageV3State@776337619::build",
+      "offset": 25575128,
+      "before": "554889e54883ec20",
+      "after": "498b87dffd0000c3"
+    },
+    {
+      "name": "BoosterPage::build",
+      "offset": 30171812,
+      "before": "554889e54883ec10",
+      "after": "498b87dffd0000c3"
+    },
+    {
+      "name": "CouponFloatingBall::build",
+      "offset": 30392464,
+      "before": "554889e54883ec30",
+      "after": "498b87dffd0000c3"
+    },
+    {
+      "name": "DailyActivityFloatingWindow::build",
+      "offset": 30417148,
+      "before": "554889e54883ec18",
+      "after": "498b87dffd0000c3"
+    },
+    {
+      "name": "NavBannerWrapper::build",
+      "offset": 30943492,
+      "before": "488b4f0f493b8f37",
+      "after": "498b87dffd0000c3"
+    },
+    {
+      "name": "NavBanner::build",
+      "offset": 30943532,
+      "before": "554889e54883ec20",
+      "after": "498b87dffd0000c3"
+    },
+    {
+      "name": "SecondaryNavBar::build",
+      "offset": 30944588,
+      "before": "554889e54883ec10",
+      "after": "498b87dffd0000c3"
+    },
+    {
+      "name": "_DiscoveryTalkRoomLeftBanner@4321520102::build",
+      "offset": 31371196,
+      "before": "554889e54883ec18",
+      "after": "498b87dffd0000c3"
+    },
+    {
+      "name": "AppBarRightArea::build",
+      "offset": 31387504,
+      "before": "554889e54883ec10",
+      "after": "498b87dffd0000c3"
+    },
+    {
+      "name": "AdvertisementState::get:currentLoginAdV2",
+      "offset": 19672336,
+      "before": "554889e5493b6648",
+      "after": "498b8680000000c3"
+    },
+    {
+      "name": "AppSettingBarrier::get:disableTalkRoom",
+      "offset": 19706444,
+      "before": "554889e54883ec08",
+      "after": "498b8690000000c3"
+    },
+    {
+      "name": "AdvertisementState::get:currentMallAdV2",
+      "offset": 19714896,
+      "before": "554889e5493b6648",
+      "after": "498b8680000000c3"
+    },
+    {
+      "name": "AdvertisementState::get:needShowLoginAdV2",
+      "offset": 20038788,
+      "before": "554889e5493b6648",
+      "after": "498b8698000000c3"
+    },
+    {
+      "name": "AppSettingBarrier::get:disableDailyActivity",
+      "offset": 20040660,
+      "before": "554889e54883ec08",
+      "after": "498b8690000000c3"
+    },
+    {
+      "name": "AppSettingBarrier::get:disableGlobalAcceleration",
+      "offset": 24889872,
+      "before": "554889e54883ec08",
+      "after": "498b8690000000c3"
+    },
+    {
+      "name": "NavBarConstant::get:topNavButtonsTotalHeight",
+      "offset": 25072220,
+      "before": "f2410f10",
+      "after": "0f57c0c3"
+    },
+    {
+      "name": "AppSettingBarrier::get:showGameMatchZone",
+      "offset": 25407228,
+      "before": "554889e54883ec08",
+      "after": "498b8698000000c3"
+    },
+    {
+      "name": "AppSettingBarrier::get:disableBoosterAutoUpdate",
+      "offset": 26583116,
+      "before": "554889e54883ec08",
+      "after": "498b8690000000c3"
+    },
+    {
+      "name": "AppSettingBarrier::get:disableBoosterGamesUpdate",
+      "offset": 28071152,
+      "before": "554889e54883ec08",
+      "after": "498b8690000000c3"
+    },
+    {
+      "name": "AppSettingBarrier::get:disableGameCoupon",
+      "offset": 30248956,
+      "before": "554889e54883ec08",
+      "after": "498b8690000000c3"
+    },
+    {
+      "name": "NavState::get:isShowSecondaryNavBar",
+      "offset": 30945428,
+      "before": "554889e54883ec10",
+      "after": "498b8698000000c3"
+    },
+    {
+      "name": "Do not reserve area advertisement height",
+      "offset": 25222520,
+      "before": "554889e5",
+      "after": "0f57c0c3"
+    },
+    {
+      "name": "Skip advertisement request, complete normal login ad flow",
+      "offset": 27226665,
+      "before": "e86e0d0000",
+      "after": "e935010000"
+    },
+    {
+      "name": "Skip mall advertisement request, emit empty list",
+      "offset": 26116659,
+      "before": "e8f4c58bff",
+      "after": "e9e5000000"
+    },
+    {
+      "name": "Only system notification contribution to badge becomes zero",
+      "offset": 31375649,
+      "before": "488b55e8",
+      "after": "4831d290"
+    },
+    {
+      "name": "Hide the system notification row badge only",
+      "offset": 22593921,
+      "before": "488b500f",
+      "after": "4831d290"
+    },
+    {
+      "name": "Suppress companion reception promotional popup",
+      "offset": 20440117,
+      "before": "488b7df048",
+      "after": "e93e010000"
+    },
+    {
+      "name": "Replace remote sponsored startup page with local chat page",
+      "offset": 28888346,
+      "before": "e80d7b61ff48898560ffffff",
+      "after": "498b8757e00200e96e0a5100"
+    }
+  ]
+}
