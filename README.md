@@ -41,4 +41,4 @@ powershell.exe -NoProfile -File .\OOPZ-Clean.ps1 -Restore
 
 ## 许可证
 
-本项目代码和自行编写的文档采用 [MIT License](LICENSE)。OOPZ 及其资源归各自权利人所有。
+本项目代码和自行编写的文档采用 [GNU Affero General Public License v3.0](LICENSE)（AGPL-3.0-only）。Copyright © 2026 HosisoraLing。OOPZ 及其资源归各自权利人所有。
