@@ -52,4 +52,3 @@ Start-Sleep -Milliseconds 700
 if ((Hash-Bytes ([IO.File]::ReadAllBytes($appFile))) -ne (Hash-Bytes $replacement)) { throw 'Written file integrity check failed.' }
 if ($Restore) { Write-Output 'Restored original client.' } else { Write-Output "Applied $($manifest.patches.Count) changes. Original saved in $backupFile" }
 if (-not $NoLaunch) { Start-Process -FilePath (Join-Path $installDir 'oopz.exe') -WorkingDirectory $installDir -WindowStyle Normal }
-
